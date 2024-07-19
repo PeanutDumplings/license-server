@@ -1,0 +1,25 @@
+{
+  "name": "license-server",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start:dev": "bun --hot src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "express": "^4.19.2",
+    "express-file-routing": "^3.0.3",
+    "helmet": "^7.1.0"
+  }
+}
